@@ -5,39 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SA - Sertão de Algas</title>
     <!-- bootstrap Css -->
+    <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
   <body>
-    <div id="containe">
-      <header class="p-3">
+    <div id="containe" class="p-4">
+      <header class="mt-4 mb-5">
           <sidebar class="d-flex justify-content-between" >
-              <h1 class="me-2"><span>SA</span> - Sertão de Algas</h1>
-              <div class="linkbar d-flex justify-content-around">
-                  <h2 class="sidebar "><a href=""></a>Sobre</h2>
-                  <h2 class="sidebar "><a href=""></a>Algas</h2>
-                  <h2 class="sidebar "><a href=""></a>Pesquisa<h2>
-                  <h2 class="sidebar"><a href=""></a>Contato</h2>
+              <h1 class="me-2 text-uppercase"><span class="text-success">SA</span> - Sertão de <span class="text-success">algas</span></h1>
+              <div class="linkbar d-flex justify-content-between">
+                  <h3 class="sidebar fs-4 me-3"><a href="" class="text-success text-decoration-none">SOBRE</a></h3>
+                  <h3 class="sidebar fs-4 me-3"><a href="#ALGAS" class="text-success text-decoration-none">ALGAS</a></h3>
+                  <h3 class="sidebar fs-4 me-3"><a href="#PESQUISA"class="text-success text-decoration-none">PESQUISA</a><h3>
+                  <h3 class="sidebar fs-4 me-5"><a href="" class="text-success text-decoration-none">CONTATO</a></h3>
               </div>
           </sidebar>
       </header>
 
-      <main>
-        <div class="about d-flex">
+      <main class="mb-5 p-3">
+        <div class="about d-flex p-4">
 
-          <div class="about-header">
-            <h2>Sobre...</h2>
-            <p>
+          <div class="about-header d-flex flex-column w-50 ">
+            <h2 class="text-success text-uppercase mb-5 mt-5 fs-1">Sobre...</h2>
+            <p class="text-uppercase text-justify fs-3">
               <span>Rayanna sophia souza</span>, pesquisadora, escritora, mulher trans! discente do curso de ciências biologicas pela ufrpe, atua em pesquisas sobre algas em específico algas do sertão. ecologia estudo da vida para a viDA.
             </p>
           </div>
        
-          <figure><img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" alt="" width="200" height="300" ></figure>
+          <figure>
+            <img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" alt="" width="200" height="300">
+          </figure>
         </div>
 
-        <h3 class="text-center">NO SERTÃO HÁ DIVERSOS TIPOS DE ALGAS,<br> CONHEÇA ALGUMAS!</h3>
+        <h3 class="text-center text-success mb-5 mt-5 fs-4" >NO SERTÃO HÁ DIVERSOS TIPOS DE ALGAS,<br> CONHEÇA ALGUMAS!</h3>
 
-        <div class="algas">
-          <h2>Algas</h2>
+        <div id="ALGAS" class="mt-5">
+          <h2 class="mb-5 mt-5 text-success text-uppercase">Algas</h2>
 
           <div id="carouselalgas" class="carousel slide" data-bs-ride="true">
             <!-- bottoms carousel -->
@@ -50,7 +53,7 @@
             <!-- slide of carousel -->
             <div class="carousel-inner">
 
-              <div class="carousel-item active d-flex p-5 bg-warning">
+              <div class="carousel-item active d-flex p-5 bg-success">
                 <img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" width="300" height="300" alt="..."> 
 
                 <div class="slide-content p-3 ">
@@ -62,7 +65,7 @@
               </div>
 
 
-              <div class="carousel-item p-5 bg-warning">
+              <div class="carousel-item p-5 bg-success">
                 <div class="carousel-content d-flex justify-content-between">
                   <img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" width="300" height="300" alt="..."> 
 
@@ -92,6 +95,23 @@
 
 
       </main>
+
+      <article class="mt-5 p-5">
+        <div  id="PESQUISA" class="d-flex flex-column  align-items-center">
+          <h2 class="text-center text-success">PESQUISA</h2>
+          <p class="text-justify w-75">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid enim possumus hoc agere divinius? Praeterea et appetendi et refugiendi et omnino rerum gerendarum initia proficiscuntur aut a voluptate aut a dolore. Omnibus enim artibus volumus attributam esse eam, quae communis appellatur prudentia, quam omnes, qui cuique artificio praesunt, debent habere. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret. Duo Reges: constructio interrete. Id mihi magnum videtur. Quam vellem, inquit, te ad Stoicos inclinavisses! erat enim, si cuiusquam, certe tuum nihil praeter virtutem in bonis ducere. Quid, si non sensus modo ei sit datus, verum etiam animus hominis? Vide igitur ne non debeas verbis nostris uti, sententiis tuis. Et nunc quidem quod eam tuetur, ut de vite potissimum loquar, est id extrinsecus; Sed virtutem ipsam inchoavit, nihil amplius. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Prodest, inquit, mihi eo esse animo. <br><br>
+
+            Illud urgueam, non intellegere eum quid sibi dicendum sit, cum dolorem summum malum esse dixerit. Quantam rem agas, ut Circeis qui habitet totum hunc mundum suum municipium esse existimet? Nulla profecto est, quin suam vim retineat a primo ad extremum. Certe non potest. In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers<br><br>
+
+            Si est nihil nisi corpus, summa erunt illa: valitudo, vacuitas doloris, pulchritudo, cetera.<br>
+            Ergo infelix una molestia, fellx rursus, cum is ipse anulus in praecordiis piscis inventus est?<br><br>
+
+            Quod maxime efficit Theophrasti de beata vita liber, in quo multum admodum fortunae datur. Aliter enim explicari, quod quaeritur, non potest. Et si turpitudinem fugimus in statu et motu corporis, quid est cur pulchritudinem non sequamur? Quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. Idemne, quod iucunde? Non igitur de improbo, sed de callido improbo quaerimus, qualis Q. Ergo infelix una molestia, fellx rursus, cum is ipse anulus in praecordiis piscis inventus est? Omnes enim iucundum motum, quo sensus hilaretur. Earum etiam rerum, quas terra gignit, educatio quaedam et perfectio est non dissimilis animantium. Cetera illa adhibebat, quibus demptis negat se Epicurus intellegere quid sit bonum. Pollicetur certe. Collatio igitur ista te nihil iuvat. Consequentia exquirere, quoad sit id, quod volumus, effectum. Hic ego: Etsi facit hic quidem, inquam, Piso, ut vides, ea, quae praecipis, tamen mihi grata hortatio tua est.
+
+          </p>
+        </div>
+      </article>
 
 
         
