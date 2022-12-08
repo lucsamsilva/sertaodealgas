@@ -1,11 +1,11 @@
 
 .about {
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
 
 
 .about figure {
-    margin-left: 20vw;
+    margin-left: 200px;
 }
 
 .carousel-item {
@@ -16,3 +16,18 @@ main {
     margin-top: 20vh;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blob {
+    width: 90vh;
+}
+
+.blob-img {
+    margin-right: 17vw;
+    margin-top: 4vw;
+}
