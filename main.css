@@ -16,10 +16,15 @@ main {
     margin-top: 20vh;
 }
 
-section {
+.about section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.blob-article {
+    margin-left: -80px;
+    margin-bottom: -500px;
 }
 
 
