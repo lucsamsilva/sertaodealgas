@@ -34,8 +34,8 @@ main {
 
 .blob-article:nth-child(2n){
     transform: scale(-1);
-    left: 690px;
-    top: 250px;
+    left: ;
+ 
 
 }
 
