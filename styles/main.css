@@ -22,14 +22,21 @@ main {
     align-items: center;
 }
 
-.blob-article {
-    margin-left: -80px;
-    margin-bottom: -500px;
+#blobSvg { 
+    width: 800px;
+    width: 800px;
+}
+
+.blob-article:nth-child(1n) {
+    left: -80px;
 }
 
 
-.blob {
-    width: 90vh;
+.blob-article:nth-child(2n){
+    transform: scale(-1);
+    left: 690px;
+    top: 250px;
+
 }
 
 .blob-img {
