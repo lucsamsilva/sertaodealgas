@@ -1,212 +1,242 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SA - Sertão de Algas</title>
-    <!-- bootstrap Css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-  <body>
-    <!-- CONTAINER -->
-    <div id="containe" class="p-4">
-      <!-- HEADER -->
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <h1 class="me-2 text-uppercase"><span class="text-success">SA</span> - Sertão de <span class="text-success">algas</span></h1>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SA - Sertão de Algas</title>
+  <!-- bootstrap Css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
 
-            <!-- nav-link-section -->
-            <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<body>
+  <!-- CONTAINER -->
+  <div id="containe" class="p-4">
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-light bg-light ">
+        <div class="container-fluid d-flex align-content-center">
+          <h1 class="me-2 text-uppercase col"><span class="text-success">SA</span> - Sertão de <span class="text-success">algas</span></h1>
+          <!-- Toggle button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navModal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <!-- nav-about -->
-                <li class="nav-item">
-                  <h3 class="nav-link active fs-5 me-3"><a href="" class="text-success text-decoration-none">SOBRE</a></h3>
-                </li>
+          <!-- modal section  -->
 
-                <!-- nav-algas -->
-                <li class="nav-item">
-                  <h3 class="nav-link active fs-5 me-3"><a href="#ALGAS" class="text-success text-decoration-none">ALGAS</a></h3>
-                </li>
-
-                <!-- nav-search -->
-                <li class="nav-item">
-                  <h3 class="nav-link active fs-5 me-3"><a href="#PESQUISA"class="text-success text-decoration-none">PESQUISA</a><h3></h3>
-                </li>
-
-                <!-- nav-contacts -->
-                <li class="nav-item">
-                  <h3 class="nav-link active fs-5 me-5"><a href="" class="text-success text-decoration-none">CONTATO</a></h3>
-                </li>
-                
-              </ul>
-              
+          <!-- Modal -->
+          <div class="modal" id="navModal" tabindex="-1" aria-labelledby="navModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="navModalLabel">MENU</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item" data-bs-dismiss="modal"><h3 class="fs-5"><a href="#SOBRE" class="text-success text-decoration-none">SOBRE</a></h3></li>
+                    <li class="list-group-item" data-bs-dismiss="modal"><h3 class="fs-5"><a href="#ALGAS" class="text-success text-decoration-none">ALGAS</a></h3></li>
+                    <li class="list-group-item" data-bs-dismiss="modal"><h3 class="fs-5"><a href="#PESQUISA" class="text-success text-decoration-none">PESQUISA</a></h3></li>
+                    <li class="list-group-item"><h3 class="fs-5"><a href="" class="text-success text-decoration-none">CONTATOS</a></h3></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-      </header>
-      <main class="mb-5 p-3">
-        <!-- ABOUT -->
-        <div class="about d-flex justify-content-center align-items-center p-4">
+        </div>
+      </nav>
+    </header>
+    <main class="mb-5 p-3">
+      <!-- ABOUT -->
+      <div class="about d-flex justify-content-center align-items-center p-4">
 
-          <div class="about-header d-flex flex-column w-50 ">
-            <h2 class="text-success text-uppercase mb-5 mt-5 fs-1">Sobre...</h2>
-            <p class="text-uppercase text-justify fs-3">
-              <span class="text-success"><strong>Rayanna sophia souza</strong></span>, pesquisadora, escritora, mulher trans! discente do curso de ciências biologicas pela ufrpe, atua em pesquisas sobre algas em específico algas do sertão. ecologia estudo da vida para a viDA.
-            </p>
-          </div>
+        <div class="about-header d-flex flex-column w-50 ">
+          <h2 class="text-success text-uppercase mb-5 mt-5 fs-1">Sobre...</h2>
+          <p class="text-uppercase text-justify fs-3">
+            <span class="text-success"><strong>Rayanna sophia souza</strong></span>, pesquisadora, escritora, mulher
+            trans! discente do curso de ciências biologicas pela ufrpe, atua em pesquisas sobre algas em específico
+            algas do sertão. ecologia estudo da vida para a viDA.
+          </p>
+        </div>
 
-          <!-- Blob about -->
-          <section> 
-            <div class="blob position-relative">
-              
-              <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-                <g transform="translate(166.69122695922852, 12.94272232055664)">
-                  <path class="blob" fill="#198754">
-                    <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M419,318Q412,386,347,408Q282,430,209,439Q136,448,84,388.5Q32,329,45.5,254.5Q59,180,110.5,139Q162,98,227,54.5Q292,11,356,59.5Q420,108,423,179Q426,250,419,318Z;
+        <!-- Blob about -->
+        <section>
+          <div class="blob position-relative">
+
+            <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+              <g transform="translate(166.69122695922852, 12.94272232055664)">
+                <path class="blob" fill="#198754">
+                  <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M419,318Q412,386,347,408Q282,430,209,439Q136,448,84,388.5Q32,329,45.5,254.5Q59,180,110.5,139Q162,98,227,54.5Q292,11,356,59.5Q420,108,423,179Q426,250,419,318Z;
                     M427,311Q395,372,340.5,413Q286,454,209.5,453.5Q133,453,88,389Q43,325,63.5,257.5Q84,190,112.5,125.5Q141,61,214.5,47.5Q288,34,342,81Q396,128,427.5,189Q459,250,427,311Z;
                     M422,316Q408,382,344.5,404Q281,426,204,444.5Q127,463,101,388.5Q75,314,65,246.5Q55,179,106.5,134.5Q158,90,223.5,61Q289,32,356,68.5Q423,105,429.5,177.5Q436,250,422,316Z;
                     M419,318Q412,386,347,408Q282,430,209,439Q136,448,84,388.5Q32,329,45.5,254.5Q59,180,110.5,139Q162,98,227,54.5Q292,11,356,59.5Q420,108,423,179Q426,250,419,318Z;
                     ">
-                    
+
                   </animate>
                 </path>
               </g>
             </svg>
-            </div>
-
-            <figure class="position-absolute blob-img">
-              <img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" alt="" width="200" height="200">
-            </figure>
-          </section>
-          
-  
-       
-        </div>
-
-
-        <!-- MAIN TEXT -->
-        <h3 class="text-center text-success mb-5 mt-5 fs-4" >NO SERTÃO HÁ DIVERSOS TIPOS DE ALGAS,<br> CONHEÇA ALGUMAS!</h3>
-
-
-        <!-- ALGAS  -->
-        <div id="ALGAS" class="mt-5">
-          <h2 class="mb-5 mt-5 text-success text-uppercase">Algas</h2>
-
-          <div id="carouselalgas" class="carousel slide" data-bs-ride="true">
-            <!-- bottoms carousel -->
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselalgas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselalgas" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselalgas" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-
-            <!-- slide of carousel -->
-            <div class="carousel-inner">
-
-              <!-- carousel item -->
-              <div class="carousel-item active p-5 bg-success">
-                <div class="carousel-content">
-                  <!-- slide content -->
-                  <div class="slide-content p-3  d-flex justify-content-between">
-                    <img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" width="300" height="300" alt="..."> 
-
-                    <div class="alga-section w-75">
-                      <h3 class="text-center">Alga scorr</h3>
-  
-                      <p class="text-justify">
-                        De ingenio eius in his disputationibus, non de moribus quaeritur. Illa tamen simplicia, vestra versuta. Tecum optime, deinde etiam cum mediocri amico. Omnes enim iucundum motum, quo sensus hilaretur. Nunc vides, quid faciat. Sed in rebus apertissimis nimium longi sumus.
-  
-                        Cur id non ita fit? Audeo dicere, inquit. At iste non dolendi status non vocatur voluptas. Est enim effectrix multarum et magnarum voluptatum. Ostendit pedes et pectus. Quae sequuntur igitur? Nihilo magis. Minime vero istorum quidem, inquit.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="slide-content p-3  d-flex justify-content-between">
-                    <img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" width="300" height="300" alt="..."> 
-
-                    <div class="alga-section w-75">
-                      <h3 class="text-center">Alga scorr</h3>
-  
-                      <p class="text-justify">
-                        De ingenio eius in his disputationibus, non de moribus quaeritur. Illa tamen simplicia, vestra versuta. Tecum optime, deinde etiam cum mediocri amico. Omnes enim iucundum motum, quo sensus hilaretur. Nunc vides, quid faciat. Sed in rebus apertissimis nimium longi sumus.
-  
-                        Cur id non ita fit? Audeo dicere, inquit. At iste non dolendi status non vocatur voluptas. Est enim effectrix multarum et magnarum voluptatum. Ostendit pedes et pectus. Quae sequuntur igitur? Nihilo magis. Minime vero istorum quidem, inquit.
-                      </p>
-                    </div>
-                  </div>
-
-                  
-                </div>
-              </div>
-
-              <!-- carousel item -->
-              <div class="carousel-item active p-5 bg-success">
-                <div class="carousel-content">
-                  <!-- slide content -->
-                  <div class="slide-content p-3  d-flex justify-content-between">
-                    <img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" width="300" height="300" alt="..."> 
-
-                    <div class="alga-section w-75">
-                      <h3 class="text-center">Alga scorr</h3>
-  
-                      <p class="text-justify">
-                        De ingenio eius in his disputationibus, non de moribus quaeritur. Illa tamen simplicia, vestra versuta. Tecum optime, deinde etiam cum mediocri amico. Omnes enim iucundum motum, quo sensus hilaretur. Nunc vides, quid faciat. Sed in rebus apertissimis nimium longi sumus.
-  
-                        Cur id non ita fit? Audeo dicere, inquit. At iste non dolendi status non vocatur voluptas. Est enim effectrix multarum et magnarum voluptatum. Ostendit pedes et pectus. Quae sequuntur igitur? Nihilo magis. Minime vero istorum quidem, inquit.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="slide-content p-3  d-flex justify-content-between">
-                    <img src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8" width="300" height="300" alt="..."> 
-
-                    <div class="alga-section w-75">
-                      <h3 class="text-center">Alga scorr</h3>
-  
-                      <p class="text-justify">
-                        De ingenio eius in his disputationibus, non de moribus quaeritur. Illa tamen simplicia, vestra versuta. Tecum optime, deinde etiam cum mediocri amico. Omnes enim iucundum motum, quo sensus hilaretur. Nunc vides, quid faciat. Sed in rebus apertissimis nimium longi sumus.
-  
-                        Cur id non ita fit? Audeo dicere, inquit. At iste non dolendi status non vocatur voluptas. Est enim effectrix multarum et magnarum voluptatum. Ostendit pedes et pectus. Quae sequuntur igitur? Nihilo magis. Minime vero istorum quidem, inquit.
-                      </p>
-                    </div>
-                  </div>
-
-                  
-                </div>
-              </div>
-
-          
-            </div> 
-            <!-- footer bottoms carousel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselalgas" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselalgas" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
+
+          <figure class="position-absolute blob-img">
+            <img
+              src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8"
+              alt="" width="200" height="200">
+          </figure>
+        </section>
+
+
+
+      </div>
+
+
+      <!-- MAIN TEXT -->
+      <h3 class="text-center text-success mb-5 mt-5 fs-4">NO SERTÃO HÁ DIVERSOS TIPOS DE ALGAS,<br> CONHEÇA ALGUMAS!
+      </h3>
+
+
+      <!-- ALGAS  -->
+      <div id="ALGAS" class="mt-5">
+        <h2 class="mb-5 mt-5 text-success text-uppercase">Algas</h2>
+
+        <div id="carouselalgas" class="carousel slide" data-bs-ride="true">
+          <!-- bottoms carousel -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselalgas" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselalgas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselalgas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <!-- slide of carousel -->
+          <div class="carousel-inner">
+
+            <!-- carousel item -->
+            <div class="carousel-item active p-5 bg-success">
+              <div class="carousel-content">
+                <!-- slide content -->
+                <div class="slide-content p-3  d-flex justify-content-between">
+                  <img
+                    src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8"
+                    width="300" height="300" alt="...">
+
+                  <div class="alga-section w-75">
+                    <h3 class="text-center">Alga scorr</h3>
+
+                    <p class="text-justify">
+                      De ingenio eius in his disputationibus, non de moribus quaeritur. Illa tamen simplicia, vestra
+                      versuta. Tecum optime, deinde etiam cum mediocri amico. Omnes enim iucundum motum, quo sensus
+                      hilaretur. Nunc vides, quid faciat. Sed in rebus apertissimis nimium longi sumus.
+
+                      Cur id non ita fit? Audeo dicere, inquit. At iste non dolendi status non vocatur voluptas. Est
+                      enim effectrix multarum et magnarum voluptatum. Ostendit pedes et pectus. Quae sequuntur igitur?
+                      Nihilo magis. Minime vero istorum quidem, inquit.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="slide-content p-3  d-flex justify-content-between">
+                  <img
+                    src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8"
+                    width="300" height="300" alt="...">
+
+                  <div class="alga-section w-75">
+                    <h3 class="text-center">Alga scorr</h3>
+
+                    <p class="text-justify">
+                      De ingenio eius in his disputationibus, non de moribus quaeritur. Illa tamen simplicia, vestra
+                      versuta. Tecum optime, deinde etiam cum mediocri amico. Omnes enim iucundum motum, quo sensus
+                      hilaretur. Nunc vides, quid faciat. Sed in rebus apertissimis nimium longi sumus.
+
+                      Cur id non ita fit? Audeo dicere, inquit. At iste non dolendi status non vocatur voluptas. Est
+                      enim effectrix multarum et magnarum voluptatum. Ostendit pedes et pectus. Quae sequuntur igitur?
+                      Nihilo magis. Minime vero istorum quidem, inquit.
+                    </p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <!-- carousel item -->
+            <div class="carousel-item active p-5 bg-success">
+              <div class="carousel-content">
+                <!-- slide content -->
+                <div class="slide-content p-3  d-flex justify-content-between">
+                  <img
+                    src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8"
+                    width="300" height="300" alt="...">
+
+                  <div class="alga-section w-75">
+                    <h3 class="text-center">Alga scorr</h3>
+
+                    <p class="text-justify">
+                      De ingenio eius in his disputationibus, non de moribus quaeritur. Illa tamen simplicia, vestra
+                      versuta. Tecum optime, deinde etiam cum mediocri amico. Omnes enim iucundum motum, quo sensus
+                      hilaretur. Nunc vides, quid faciat. Sed in rebus apertissimis nimium longi sumus.
+
+                      Cur id non ita fit? Audeo dicere, inquit. At iste non dolendi status non vocatur voluptas. Est
+                      enim effectrix multarum et magnarum voluptatum. Ostendit pedes et pectus. Quae sequuntur igitur?
+                      Nihilo magis. Minime vero istorum quidem, inquit.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="slide-content p-3  d-flex justify-content-between">
+                  <img
+                    src="https://img.freepik.com/fotos-gratis/melhores-amiguinhos-felizes-comemorando_23-2148984842.jpg?w=1060&t=st=1670371636~exp=1670372236~hmac=027f03b4df082eb1c71d6848ee843ea51b8be74d45a806638ec6f98f547cc5e8"
+                    width="300" height="300" alt="...">
+
+                  <div class="alga-section w-75">
+                    <h3 class="text-center">Alga scorr</h3>
+
+                    <p class="text-justify">
+                      De ingenio eius in his disputationibus, non de moribus quaeritur. Illa tamen simplicia, vestra
+                      versuta. Tecum optime, deinde etiam cum mediocri amico. Omnes enim iucundum motum, quo sensus
+                      hilaretur. Nunc vides, quid faciat. Sed in rebus apertissimis nimium longi sumus.
+
+                      Cur id non ita fit? Audeo dicere, inquit. At iste non dolendi status non vocatur voluptas. Est
+                      enim effectrix multarum et magnarum voluptatum. Ostendit pedes et pectus. Quae sequuntur igitur?
+                      Nihilo magis. Minime vero istorum quidem, inquit.
+                    </p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+
+          </div>
+          <!-- footer bottoms carousel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselalgas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselalgas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
 
 
-      </main>
-      
-      <!-- BLOB PESQUISA -->
-      <section class="blob-article position-absolute">
+    </main>
 
-        <div class="blob">
-          <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="blobSvg">
-            <g transform="translate(-181, 20)">
-              <path class="blob"  fill="#198754">
-                <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="
+    <!-- BLOB PESQUISA -->
+    <section class="blob-article position-absolute">
+
+      <div class="blob">
+        <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" id="blobSvg">
+          <g transform="translate(-181, 20)">
+            <path class="blob" fill="#198754">
+              <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="
                 M428.5,304Q399,358,357.5,406.5Q316,455,247,464Q178,473,149.5,408Q121,343,75.5,296.5Q30,250,58.5,190.5Q87,131,134,84Q181,37,251,33.5Q321,30,355,89.5Q389,149,423.5,199.5Q458,250,428.5,304Z; 
                 M449.5,306Q405,362,365.5,422.5Q326,483,254.5,469.5Q183,456,131.5,414.5Q80,373,84.5,311.5Q89,250,101.5,200.5Q114,151,150.5,103.5Q187,56,252,50.5Q317,45,368.5,86Q420,127,457,188.5Q494,250,449.5,306Z;
                 M411,306.5Q406,363,360,405Q314,447,246,458.5Q178,470,150.5,406Q123,342,81,296Q39,250,66.5,193Q94,136,137.5,87.5Q181,39,251.5,33Q322,27,369.5,78Q417,129,416.5,189.5Q416,250,411,306.5Z;
@@ -214,22 +244,23 @@
                 M428.5,304Q399,358,357.5,406.5Q316,455,247,464Q178,473,149.5,408Q121,343,75.5,296.5Q30,250,58.5,190.5Q87,131,134,84Q181,37,251,33.5Q321,30,355,89.5Q389,149,423.5,199.5Q458,250,428.5,304Z;
                 ">
 
-                </animate>
-              </path>
-            </g>
-          </svg>
-        </div>
+              </animate>
+            </path>
+          </g>
+        </svg>
+      </div>
 
-      </section>
+    </section>
 
-      <!-- BLOB PESQUISA -->
-      <section class="blob-article position-absolute">
+    <!-- BLOB PESQUISA -->
+    <section class="blob-article position-absolute">
 
-        <div class="blob">
-          <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  id="blobSvg">
-            <g transform="translate(-181, 20)">
-              <path class="blob"  fill="#198754">
-                <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="
+      <div class="blob">
+        <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" id="blobSvg">
+          <g transform="translate(-181, 20)">
+            <path class="blob" fill="#198754">
+              <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="
                 M428.5,304Q399,358,357.5,406.5Q316,455,247,464Q178,473,149.5,408Q121,343,75.5,296.5Q30,250,58.5,190.5Q87,131,134,84Q181,37,251,33.5Q321,30,355,89.5Q389,149,423.5,199.5Q458,250,428.5,304Z; 
                 M449.5,306Q405,362,365.5,422.5Q326,483,254.5,469.5Q183,456,131.5,414.5Q80,373,84.5,311.5Q89,250,101.5,200.5Q114,151,150.5,103.5Q187,56,252,50.5Q317,45,368.5,86Q420,127,457,188.5Q494,250,449.5,306Z;
                 M411,306.5Q406,363,360,405Q314,447,246,458.5Q178,470,150.5,406Q123,342,81,296Q39,250,66.5,193Q94,136,137.5,87.5Q181,39,251.5,33Q322,27,369.5,78Q417,129,416.5,189.5Q416,250,411,306.5Z;
@@ -237,45 +268,71 @@
                 M428.5,304Q399,358,357.5,406.5Q316,455,247,464Q178,473,149.5,408Q121,343,75.5,296.5Q30,250,58.5,190.5Q87,131,134,84Q181,37,251,33.5Q321,30,355,89.5Q389,149,423.5,199.5Q458,250,428.5,304Z;
                 ">
 
-                </animate>
-              </path>
-            </g>
-          </svg>
-        </div>
+              </animate>
+            </path>
+          </g>
+        </svg>
+      </div>
 
-      </section>
+    </section>
 
 
-      <!-- PESQUISA -->
-      <article class="mt-2 p-5 position-relative">
-
-        
-
-  
-        <div  id="PESQUISA" class="d-flex flex-column  align-items-center">
-          <h2 class="text-center text-success">PESQUISA</h2>
-          <p class="text-justify w-75">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid enim possumus hoc agere divinius? Praeterea et appetendi et refugiendi et omnino rerum gerendarum initia proficiscuntur aut a voluptate aut a dolore. Omnibus enim artibus volumus attributam esse eam, quae communis appellatur prudentia, quam omnes, qui cuique artificio praesunt, debent habere. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret. Duo Reges: constructio interrete. Id mihi magnum videtur. Quam vellem, inquit, te ad Stoicos inclinavisses! erat enim, si cuiusquam, certe tuum nihil praeter virtutem in bonis ducere. Quid, si non sensus modo ei sit datus, verum etiam animus hominis? Vide igitur ne non debeas verbis nostris uti, sententiis tuis. Et nunc quidem quod eam tuetur, ut de vite potissimum loquar, est id extrinsecus; Sed virtutem ipsam inchoavit, nihil amplius. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Prodest, inquit, mihi eo esse animo. <br><br>
-
-            Illud urgueam, non intellegere eum quid sibi dicendum sit, cum dolorem summum malum esse dixerit. Quantam rem agas, ut Circeis qui habitet totum hunc mundum suum municipium esse existimet? Nulla profecto est, quin suam vim retineat a primo ad extremum. Certe non potest. In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers<br><br>
-
-            Si est nihil nisi corpus, summa erunt illa: valitudo, vacuitas doloris, pulchritudo, cetera.<br>
-            Ergo infelix una molestia, fellx rursus, cum is ipse anulus in praecordiis piscis inventus est?<br><br>
-
-            Quod maxime efficit Theophrasti de beata vita liber, in quo multum admodum fortunae datur. Aliter enim explicari, quod quaeritur, non potest. Et si turpitudinem fugimus in statu et motu corporis, quid est cur pulchritudinem non sequamur? Quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. Idemne, quod iucunde? Non igitur de improbo, sed de callido improbo quaerimus, qualis Q. Ergo infelix una molestia, fellx rursus, cum is ipse anulus in praecordiis piscis inventus est? Omnes enim iucundum motum, quo sensus hilaretur. Earum etiam rerum, quas terra gignit, educatio quaedam et perfectio est non dissimilis animantium. Cetera illa adhibebat, quibus demptis negat se Epicurus intellegere quid sit bonum. Pollicetur certe. Collatio igitur ista te nihil iuvat. Consequentia exquirere, quoad sit id, quod volumus, effectum. Hic ego: Etsi facit hic quidem, inquam, Piso, ut vides, ea, quae praecipis, tamen mihi grata hortatio tua est.
-
-          </p>
-        </div>
-      </article>
-
-    </div>
+    <!-- PESQUISA -->
+    <article class="mt-2 p-5 position-relative">
 
 
 
-    <!-- bootstrap Js  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <!-- Srcipts components -->
-    <script src="/scripts/blob.js"></script>
-  </body>
+      <div id="PESQUISA" class="d-flex flex-column  align-items-center">
+        <h2 class="text-center text-success">PESQUISA</h2>
+        <p class="text-justify w-75">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid enim possumus hoc agere divinius? Praeterea et
+          appetendi et refugiendi et omnino rerum gerendarum initia proficiscuntur aut a voluptate aut a dolore. Omnibus
+          enim artibus volumus attributam esse eam, quae communis appellatur prudentia, quam omnes, qui cuique artificio
+          praesunt, debent habere. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina
+          traduceret. Duo Reges: constructio interrete. Id mihi magnum videtur. Quam vellem, inquit, te ad Stoicos
+          inclinavisses! erat enim, si cuiusquam, certe tuum nihil praeter virtutem in bonis ducere. Quid, si non sensus
+          modo ei sit datus, verum etiam animus hominis? Vide igitur ne non debeas verbis nostris uti, sententiis tuis.
+          Et nunc quidem quod eam tuetur, ut de vite potissimum loquar, est id extrinsecus; Sed virtutem ipsam
+          inchoavit, nihil amplius. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Prodest, inquit,
+          mihi eo esse animo. <br><br>
+
+          Illud urgueam, non intellegere eum quid sibi dicendum sit, cum dolorem summum malum esse dixerit. Quantam rem
+          agas, ut Circeis qui habitet totum hunc mundum suum municipium esse existimet? Nulla profecto est, quin suam
+          vim retineat a primo ad extremum. Certe non potest. In omni enim arte vel studio vel quavis scientia vel in
+          ipsa virtute optimum quidque rarissimum est. Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne
+          refers<br><br>
+
+          Si est nihil nisi corpus, summa erunt illa: valitudo, vacuitas doloris, pulchritudo, cetera.<br>
+          Ergo infelix una molestia, fellx rursus, cum is ipse anulus in praecordiis piscis inventus est?<br><br>
+
+          Quod maxime efficit Theophrasti de beata vita liber, in quo multum admodum fortunae datur. Aliter enim
+          explicari, quod quaeritur, non potest. Et si turpitudinem fugimus in statu et motu corporis, quid est cur
+          pulchritudinem non sequamur? Quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi
+          quidem videtur, inermis ac nudus est. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam
+          cur Peripateticum appellem nescio. Idemne, quod iucunde? Non igitur de improbo, sed de callido improbo
+          quaerimus, qualis Q. Ergo infelix una molestia, fellx rursus, cum is ipse anulus in praecordiis piscis
+          inventus est? Omnes enim iucundum motum, quo sensus hilaretur. Earum etiam rerum, quas terra gignit, educatio
+          quaedam et perfectio est non dissimilis animantium. Cetera illa adhibebat, quibus demptis negat se Epicurus
+          intellegere quid sit bonum. Pollicetur certe. Collatio igitur ista te nihil iuvat. Consequentia exquirere,
+          quoad sit id, quod volumus, effectum. Hic ego: Etsi facit hic quidem, inquam, Piso, ut vides, ea, quae
+          praecipis, tamen mihi grata hortatio tua est.
+
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+
+
+  <!-- bootstrap Js  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- Srcipts components -->
+  <script src="/scripts/blob.js"></script>
+</body>
+
 </html>

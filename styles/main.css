@@ -1,3 +1,20 @@
+.modal-title {
+    color: rgb( 25,135,84)!important; 
+}
+
+.modal { 
+    width: 300px!important;
+}
+
+.modal-content {
+    width: 300px!important;
+}
+
+.list-group-item:hover {
+    background-color: rgb(132, 204, 149)!important;
+    cursor: pointer!important;
+}
+
 
 .about {
     margin-bottom: 10vh;
@@ -34,7 +51,8 @@ main {
 
 .blob-article:nth-child(2n){
     transform: scale(-1);
-    left: ;
+
+    display: none!important;
  
 
 }
