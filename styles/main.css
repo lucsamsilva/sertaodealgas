@@ -1,3 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    width: 100%!important;
+}
+
 .navbar-toggler{
     color:  rgba(34, 139, 34, 0.55)!important;
     border-color:rgba(34, 139, 34, 0.55)!important;
@@ -36,6 +45,11 @@
 
 .about {
     margin-bottom: 10vh;
+    overflow: hidden;
+}
+
+.about-header {
+    width: 50%;
 }
 
 
@@ -64,6 +78,8 @@ main {
 
 .blob-article:nth-child(1n) {
     left: -80px;
+
+    overflow: hidden;
 }
 
 
